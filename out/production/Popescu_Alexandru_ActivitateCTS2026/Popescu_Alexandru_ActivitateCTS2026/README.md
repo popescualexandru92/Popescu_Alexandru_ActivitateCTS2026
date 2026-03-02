@@ -1,1 +1,0 @@
-# Popescu_Alexandru_ActivitateCTS2026
