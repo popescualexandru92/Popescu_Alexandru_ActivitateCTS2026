@@ -1,0 +1,15 @@
+package SimpleFactory.dispozitive;
+
+public class Laptop extends Dispozitiv{
+    public Laptop(int nivelBaterie) {
+        super(nivelBaterie);
+    }
+
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("Laptop{");
+        sb.append("nivelBaterie=").append(nivelBaterie);
+        sb.append('}');
+        return sb.toString();
+    }
+}

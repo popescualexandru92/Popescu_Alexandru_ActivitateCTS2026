@@ -1,0 +1,18 @@
+package Singleton.aplicatii;
+
+public class AplicatieMobila2 {
+
+    //eager
+    private String nume;
+    private float dimensiune;
+    private static AplicatieMobila2 instanta=new AplicatieMobila2("app2",10);
+
+    public AplicatieMobila2(String nume, float dimensiune) {
+        this.nume = nume;
+        this.dimensiune = dimensiune;
+    }
+
+    public static AplicatieMobila2 getInstanta() {
+        return instanta;
+    }
+}
