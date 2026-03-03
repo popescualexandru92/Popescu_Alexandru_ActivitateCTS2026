@@ -1,7 +1,0 @@
-package SimpleFactory.factory;
-
-public enum TipDispozitiv {
-    Laptop,
-    Smartphone,
-    Smartwatch
-}
