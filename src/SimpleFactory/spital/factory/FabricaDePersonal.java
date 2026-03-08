@@ -8,11 +8,11 @@ import SimpleFactory.spital.PersonalSpital.PersonalSpital;
 public class FabricaDePersonal {
     private static FabricaDePersonal instanta=null;
 
-public static synchronized FabricaDePersonal getInstance(){
-    if(instanta==null)
-        instanta=new FabricaDePersonal();
-    return instanta;
-}
+    public static synchronized FabricaDePersonal getInstance(){
+        if(instanta==null)
+            instanta=new FabricaDePersonal();
+        return instanta;
+    }
 
     public FabricaDePersonal() {
     }

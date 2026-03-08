@@ -1,6 +1,6 @@
-package SimpleFactory.spital.PersonalSpital;
+package FactoryMethod.Spital.PersonalSpital;
 
-public abstract class PersonalSpital {
+public class PersonalSpital {
     protected int varsta;
 
     public PersonalSpital(int varsta) {
