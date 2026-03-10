@@ -8,7 +8,7 @@ public class AplicatieMobila {
     private float dimensiune;
     private static AplicatieMobila instanta=null;
 
-    public AplicatieMobila(String nume, float dimensiune) {
+    private AplicatieMobila(String nume, float dimensiune) {
         this.nume = nume;
         this.dimensiune = dimensiune;
     }
