@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bb77104e-f66f-4c81-9840-043e0c3193cb" name="Changes" comment="1st comm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labs/Singleton/aplicatii/AplicatieMobila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labs/Singleton/aplicatii/AplicatieMobila.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labs/Singleton/aplicatii/AplicatieMobila2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labs/Singleton/aplicatii/AplicatieMobila2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -51,6 +49,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.Program.executor&quot;: &quot;Run&quot;,
     &quot;Application.hello.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
