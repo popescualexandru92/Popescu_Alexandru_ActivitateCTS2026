@@ -31,16 +31,6 @@ public class Rezervare implements Prototype{
     }
 
     @Override
-    public String toString() {
-        final StringBuilder sb = new StringBuilder("Rezervare{");
-        sb.append("nume='").append(nume).append('\'');
-        sb.append(", nrTel='").append(nrTel).append('\'');
-        sb.append(", nrPersoane=").append(nrPersoane);
-        sb.append('}');
-        return sb.toString();
-    }
-
-    @Override
     public Prototype copiaza() throws CloneNotSupportedException {
         Rezervare rezervare=new Rezervare();
         rezervare.nume=this.nume;
@@ -48,5 +38,15 @@ public class Rezervare implements Prototype{
         rezervare.nrPersoane=this.nrPersoane;
 //        return (Prototype) super.clone();
         return rezervare;
+    }
+
+       @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("Rezervare{");
+        sb.append("nume='").append(nume).append('\'');
+        sb.append(", nrTel='").append(nrTel).append('\'');
+        sb.append(", nrPersoane=").append(nrPersoane);
+        sb.append('}');
+        return sb.toString();
     }
 }

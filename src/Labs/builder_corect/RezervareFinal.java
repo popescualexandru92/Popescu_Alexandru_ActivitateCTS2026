@@ -23,8 +23,6 @@ public class RezervareFinal {
             return new RezervareFinal(laGeam,scaunErgonomic,culoareFataMasa,genMuzical,nrPersoane);
         }
 
-
-
         @Override
         public BuilderAbstract setGenMuzical(String genMuzical) {
             this.genMuzical=genMuzical;
