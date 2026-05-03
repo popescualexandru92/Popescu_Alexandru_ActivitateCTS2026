@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(Get-ChildItem -Path \"d:\\\\VS CODE files\\\\CTS\\\\untitled\\\\src\\\\Command\\\\\" -Recurse -File | Select-Object FullName)"
-    ]
-  }
-}
