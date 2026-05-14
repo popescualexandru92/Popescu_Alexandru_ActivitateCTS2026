@@ -16,6 +16,7 @@ public class Spital implements RoAlert{
 
     @Override
     public void adaugaObserver(Observer observer) {
+
         abonati.add(observer);
     }
 
