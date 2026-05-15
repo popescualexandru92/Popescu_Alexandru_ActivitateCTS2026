@@ -8,7 +8,6 @@ public class BonDeCasaDecorator implements BonDeCasa{
     }
 
 
-
     @Override
     public void printeaza() {
         bonDeCasa.printeaza();
